@@ -12,15 +12,17 @@ class PatientSignUpForm(UserCreationForm):
 
     class Meta(UserCreationForm.Meta):
         model = User
-        fields = UserCreationForm.Meta.fields + ('NID', 'email', 'age', 'gender',)
+        fields = UserCreationForm.Meta.fields + ('NID', 'email', 'age', 'gender', 'first_name', 'last_name')
 
     @transaction.atomic
     def save(self):
         user = super().save(commit=False)
         user.is_patient = True
+
         user.save()
-        patient = Patient.objects.create(user=user)
-        patient.address.add(*self.cleaned_data.get('address'))
+        address = self.cleaned_data.get('address')
+        patient = Patient.objects.create(user=user, address=address)
+
         return user
 
 
@@ -34,17 +36,21 @@ class DoctorSignUpFrom(UserCreationForm):
 
     class Meta(UserCreationForm.Meta):
         model = User
-        fields = UserCreationForm.Meta.fields + ('NID', 'email', 'age', 'gender',)
+        fields = UserCreationForm.Meta.fields + ('NID', 'email', 'age', 'gender', 'first_name', 'last_name')
 
     @transaction.atomic
     def save(self):
         user = super().save(commit=False)
         user.is_doctor = True
         user.save()
-        doctor = Doctor.objects.create(user=user)
-        doctor.SSC_GPA.add(*self.cleaned_data.get('SSC_GPA'))
-        doctor.HSC_GPA.add(*self.cleaned_data.get('HSC_GPA'))
-        doctor.BMDC_RegNo.add(*self.cleaned_data.get('BMDC_RegNo'))
-        doctor.MBBS_Session.add(*self.cleaned_data.get('MBBS_Session'))
-        doctor.MBBS_Inst.add(*self.cleaned_data.get('MBBS_Inst'))
-        doctor.PostGrad_details.add(*self.cleaned_data.get('PostGrad_details'))
+
+        SSC_GPA = self.cleaned_data.get('SSC_GPA')
+        HSC_GPA = self.cleaned_data.get('HSC_GPA')
+        BMDC_RegNo = self.cleaned_data.get('BMDC_RegNo')
+        MBBS_Session = self.cleaned_data.get('MBBS_Session')
+        MBBS_Inst = self.cleaned_data.get('MBBS_Inst')
+        PostGrad_details = self.cleaned_data.get('PostGrad_details')
+        doctor = Doctor.objects.create(user=user, SSC_GPA=SSC_GPA, HSC_GPA=HSC_GPA,
+                            BMDC_RegNo=BMDC_RegNo, MBBS_Session=MBBS_Session,
+                            MBBS_Inst=MBBS_Inst, PostGrad_details=PostGrad_details)
+        return user

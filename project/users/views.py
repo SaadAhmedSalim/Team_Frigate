@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
-from django.views.generic import TemplateView, CreateView
+from django.views.generic import TemplateView, CreateView, ListView, DetailView
+from django.contrib.auth import login
 
 from .forms import DoctorSignUpFrom, PatientSignUpForm
 from .models import Doctor, Patient, User
@@ -36,3 +37,17 @@ class PatientSignUpView(CreateView):
         user = form.save()
         login(self.request, user)
         return redirect('home')
+
+
+class DoctorsListView(ListView):
+    model = Doctor
+    template_name = 'users/doctor_list.html'
+
+
+class PatientDetailView(DetailView):
+    model = Patient
+    template_name = 'users/patient_detail.html'
+
+class DoctorDetailView(DetailView):
+    model = Doctor
+    template_name = 'users/doctor_detail.html'

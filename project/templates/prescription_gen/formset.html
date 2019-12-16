@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h4>Prescription for: {{ prescription.patient.user.first_name }}</h4>
+<h4>Prescription by: {{ prescription.doctor.user.first_name }}</h4>
+<hr/>
+<div class="module">
+  <h5>Prescription Medicines</h5>
+<form action="" method="post">
+
+{{ formset.management_form }}
+{% for form in formset.forms %}
+  <p><span class=lead>{{forloop.counter}}. </span>{{form}}</p>
+  <hr/>
+{% endfor %}
+{% csrf_token %}
+<input type="submit" class="btn-success" value="Save modules">
+
+</form>
+<button class="btn-info"><a class="btn-info" href="{% url 'pr_detail' prescription.pk %}">Generate Prescription </a></button>
+</div>
+{% endblock %}
