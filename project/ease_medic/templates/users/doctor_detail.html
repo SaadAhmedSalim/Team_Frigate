@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class='row'>
+  <div class='col-12'>
+    <h3>Name: {{object.user.first_name}} {{object.user.last_name}}</h3>
+      <hr/>
+    </div>
+
+  <div class='row'>
+    <div class='col-12'>
+      <p>NID: {{object.user.NID}}</p>
+      <p>Age: {{object.user.age}}</p>
+      <p>Sec: {{object.user.gender}}</p>
+      <p>E-mail: {{object.user.email}}</p>
+      <p>HSC GPA: {{object.HSC_GPA}}</p>
+      <p>SSC GPA: {{object.SSC_GPA}}</p>
+      <p>Medicle Institution: {{object.MBBS_Inst}} Session:{{MBBS_Session}}</p>
+      <p>PostGraduation: {{object.PostGrad_details}}</p>
+
+      <hr/>
+      <p> Back to <a href="{% url 'home' %}">Home</a>.</p>
+    </div>
+  </div>
+{% endblock content %}
