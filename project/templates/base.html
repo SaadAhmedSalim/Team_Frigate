@@ -3,20 +3,33 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{% block title %}Ease Medication{% endblock %}</title>
+    <title>{% block title %}We Care{% endblock %}</title>
     <link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
+<style>
+body {
+  background-image: url("http://18.188.51.176/wp-content/uploads/2019/01/15102113_isolated-1188036_1920.png");
 
+    /* Full height */
+  height: 300%;
+
+  /* Center and scale the image nicely */
+  background-position: left top ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+</style>
 <body>
   <div class="container my-4">
-  <div class="row justify-content-center">
-    <div class="col-md-10 col-sm-12">
+  <div class="row justify-content-end align-items-end">
+    <div class="col-md-6 col-sm-6">
       <div class="row">
         <div class="col-6">
           <h1 class="logo">
             <a href="{% url 'home' %}">
-              Ease Medic
+              WeCare
               {% if user.is_authenticated %}
                 {% if user.is_doctor %}
                   <span class="icon-feather" data-toggle="tooltip" data-placement="right" title="Doctor profile"></span>
