@@ -4,6 +4,7 @@ from django.urls import reverse
 from users.models import User, Patient, Doctor
 
 class Medicine(models.Model):
+    
     name = models.CharField(max_length=50)
     miligram = models.PositiveIntegerField(default=5)
 

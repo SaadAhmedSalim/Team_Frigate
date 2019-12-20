@@ -21,3 +21,11 @@ class HomePageTests(SimpleTestCase):
         response = self.client.get(reverse('home'))
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'home.html')
+
+class MedicineCreateViewTests(TestCase):
+
+    def test_create_medicine(self):
+        Medicine = get_user_model()
+        medicine = Medicine.objects.create(
+                    
+        )
