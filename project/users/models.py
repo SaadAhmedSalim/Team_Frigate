@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser
+from django.urls import reverse
 
 # User model
 class User(AbstractUser):
@@ -13,6 +14,9 @@ class User(AbstractUser):
         ('F', 'Female'),
     )
     gender = models.CharField(max_length=1, choices=GENDER_CHOICES)
+
+    def get_absolute_url(self): # new
+        return reverse('doctor_detail', args=[str(self.id)])
 
 
 #Users Types
