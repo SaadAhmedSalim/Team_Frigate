@@ -1,4 +1,9 @@
-#!/usr/bin/env python
+# !/usr/bin/env python
+
+## @package pyexample
+#  Documentation for this module.
+#
+#  More details.
 import os
 import sys
 
