@@ -35,3 +35,6 @@ class PatientSearchView(ListView):
         query = self.request.GET.get('q')
         object_list = Patient.objects.filter(user__NID=query)
         return object_list
+
+class GoogleApiView(TemplateView):
+    template_name = 'googleApi.html'

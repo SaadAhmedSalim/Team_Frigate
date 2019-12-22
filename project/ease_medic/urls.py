@@ -4,7 +4,7 @@
 #  More details.
 from django.contrib import admin
 from django.urls import path, include
-from .views import home, PatientSearchView, SearchView, DoctorHomeView, PatientHomeView
+from .views import home, PatientSearchView, SearchView, DoctorHomeView, PatientHomeView, GoogleApiView
 ## add urls
 #  to see the all branches
 urlpatterns = [
@@ -25,4 +25,5 @@ urlpatterns = [
 ## This is doctors home page.
     path('home/patient', PatientHomeView.as_view(), name='patient_home'),
 ## This is patients home page.
+    path('googleApi/',GoogleApiView.as_view(), name = 'api'),
 ]
