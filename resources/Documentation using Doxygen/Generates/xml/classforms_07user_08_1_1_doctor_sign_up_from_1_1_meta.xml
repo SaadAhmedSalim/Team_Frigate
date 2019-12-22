@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classforms_07user_08_1_1_doctor_sign_up_from_1_1_meta" kind="class" language="Python" prot="public">
+    <compoundname>forms(user)::DoctorSignUpFrom::Meta</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Meta</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classforms_07user_08_1_1_doctor_sign_up_from_1_1_meta_1ab3fbfc2dee32de995b9201cb3e3b7dc3" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>forms(user).DoctorSignUpFrom.Meta::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <initializer>=  User</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="forms(user).py" line="56" column="1" bodyfile="forms(user).py" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classforms_07user_08_1_1_doctor_sign_up_from_1_1_meta_1a6b804559b91db78af932d91c45079923" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>forms(user).DoctorSignUpFrom.Meta::fields</definition>
+        <argsstring></argsstring>
+        <name>fields</name>
+        <initializer>=  UserCreationForm.Meta.fields + (&apos;NID&apos;, &apos;email&apos;, &apos;age&apos;, &apos;gender&apos;, &apos;first_name&apos;, &apos;last_name&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="forms(user).py" line="57" column="1" bodyfile="forms(user).py" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>define a class <ref refid="classforms_07user_08_1_1_doctor_sign_up_from_1_1_meta" kindref="compound">Meta</ref> which will inherit users.user </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Meta</label>
+      </node>
+      <node id="1">
+        <label>forms(user).DoctorSignUpFrom.Meta</label>
+        <link refid="classforms_07user_08_1_1_doctor_sign_up_from_1_1_meta"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Meta</label>
+      </node>
+      <node id="1">
+        <label>forms(user).DoctorSignUpFrom.Meta</label>
+        <link refid="classforms_07user_08_1_1_doctor_sign_up_from_1_1_meta"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="forms(user).py" line="55" column="1" bodyfile="forms(user).py" bodystart="55" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classforms_07user_08_1_1_doctor_sign_up_from_1_1_meta_1a6b804559b91db78af932d91c45079923" prot="public" virt="non-virtual"><scope>forms(user)::DoctorSignUpFrom::Meta</scope><name>fields</name></member>
+      <member refid="classforms_07user_08_1_1_doctor_sign_up_from_1_1_meta_1ab3fbfc2dee32de995b9201cb3e3b7dc3" prot="public" virt="non-virtual"><scope>forms(user)::DoctorSignUpFrom::Meta</scope><name>model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

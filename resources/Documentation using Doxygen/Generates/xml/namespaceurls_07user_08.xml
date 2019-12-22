@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespaceurls_07user_08" kind="namespace" language="Python">
+    <compoundname>urls(user)</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceurls_07user_08_1aa9de350b115ffd9fddeb5cc90e5e1f00" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list urls(user).urlpatterns</definition>
+        <argsstring></argsstring>
+        <name>urlpatterns</name>
+        <initializer>=  [
+    ## Locate the sign page
+    path(&apos;signup/&apos;, SignUpView.as_view(), name=&apos;signup&apos;),
+    ## Locate the doctors sign up page
+    path(&apos;signup/doctor&apos;, DoctorSignUpView.as_view(), name=&apos;signup_doctor&apos;),
+    ## Locate the patients sign up page
+    path(&apos;signup/patient&apos;, PatientSignUpView.as_view(), name=&apos;signup_patient&apos;),
+    ## Locate the doctors list for view
+    path(&apos;doctors/&apos;, DoctorsListView.as_view(), name=&apos;doctor_list&apos;),
+    ## Locate the patient details in patient page
+    path(&apos;patient/&lt;pk&gt;/&apos;, PatientDetailView.as_view(), name=&apos;patient_detail&apos;),
+    ## Locate the doctors details in doctors page
+    path(&apos;doctor/&lt;pk&gt;/&apos;, DoctorDetailView.as_view(), name=&apos;doctor_detail&apos;),
+]</initializer>
+        <briefdescription>
+<para>add urls </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="urls(user).py" line="7" column="1" bodyfile="urls(user).py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="urls(user).py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classmodels_07user_08_1_1_doctor" kind="class" language="Python" prot="public">
+    <compoundname>models(user)::Doctor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmodels_07user_08_1_1_doctor_1adeb2841ea746dbe962f6a7f11356c4c9" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>models(user).Doctor::user</definition>
+        <argsstring></argsstring>
+        <name>user</name>
+        <initializer>=  models.OneToOneField(<ref refid="classmodels_07user_08_1_1_user" kindref="compound">User</ref>, on_delete=models.CASCADE, primary_key=True)</initializer>
+        <briefdescription>
+<para>A class variable user. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(user).py" line="47" column="1" bodyfile="models(user).py" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmodels_07user_08_1_1_doctor_1a3f6a6abbca2747b50e9d67a0b7f5ef8c" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>models(user).Doctor::SSC_GPA</definition>
+        <argsstring></argsstring>
+        <name>SSC_GPA</name>
+        <initializer>=  models.DecimalField(decimal_places=2, max_digits=5, default=0.0)</initializer>
+        <briefdescription>
+<para>A class variable SSC_GPA. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(user).py" line="49" column="1" bodyfile="models(user).py" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmodels_07user_08_1_1_doctor_1af8e1ab390dfa937f7776886d6a6b3a3a" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>models(user).Doctor::HSC_GPA</definition>
+        <argsstring></argsstring>
+        <name>HSC_GPA</name>
+        <initializer>=  models.DecimalField(decimal_places=2, max_digits=5, default=0.0)</initializer>
+        <briefdescription>
+<para>A class variable HSC_GPA. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(user).py" line="51" column="1" bodyfile="models(user).py" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmodels_07user_08_1_1_doctor_1a359533549bf43654c94650c34d98bfff" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>models(user).Doctor::BMDC_RegNo</definition>
+        <argsstring></argsstring>
+        <name>BMDC_RegNo</name>
+        <initializer>=  models.CharField(max_length=100, blank=False, null=False)</initializer>
+        <briefdescription>
+<para>A class variable BMDC_RegNo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(user).py" line="53" column="1" bodyfile="models(user).py" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmodels_07user_08_1_1_doctor_1a847dc023e12f43836e4b79dbc2c88af9" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>models(user).Doctor::MBBS_Session</definition>
+        <argsstring></argsstring>
+        <name>MBBS_Session</name>
+        <initializer>=  models.CharField(max_length=100, blank=False, null=False)</initializer>
+        <briefdescription>
+<para>A class variable MBBS_Session. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(user).py" line="55" column="1" bodyfile="models(user).py" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmodels_07user_08_1_1_doctor_1a5e1acb16a8a7a4a709b5f5516ff03b7a" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>models(user).Doctor::MBBS_Inst</definition>
+        <argsstring></argsstring>
+        <name>MBBS_Inst</name>
+        <initializer>=  models.CharField(max_length=100, blank=False, null=False)</initializer>
+        <briefdescription>
+<para>A class variable MBBS_Inst. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(user).py" line="57" column="1" bodyfile="models(user).py" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmodels_07user_08_1_1_doctor_1a7beb578fe9c4ae76279b3abf4a7a62b2" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>models(user).Doctor::PostGrad_details</definition>
+        <argsstring></argsstring>
+        <name>PostGrad_details</name>
+        <initializer>=  models.CharField(max_length=255, blank=True, null=True)</initializer>
+        <briefdescription>
+<para>A class variable PostGrad_details. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(user).py" line="59" column="1" bodyfile="models(user).py" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmodels_07user_08_1_1_doctor_1ad2160bd47abb165c5992c4c84cdf0ae3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def models(user).Doctor.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+<para>Documentation for a method <bold>str</bold> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>self</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the object pointer . </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(user).py" line="63" column="1" bodyfile="models(user).py" bodystart="63" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Define a class <ref refid="classmodels_07user_08_1_1_doctor" kindref="compound">Doctor</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>models(user).Doctor</label>
+        <link refid="classmodels_07user_08_1_1_doctor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models::Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>models(user).Doctor</label>
+        <link refid="classmodels_07user_08_1_1_doctor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models::Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="models(user).py" line="45" column="1" bodyfile="models(user).py" bodystart="45" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classmodels_07user_08_1_1_doctor_1ad2160bd47abb165c5992c4c84cdf0ae3" prot="public" virt="non-virtual"><scope>models(user)::Doctor</scope><name>__str__</name></member>
+      <member refid="classmodels_07user_08_1_1_doctor_1a359533549bf43654c94650c34d98bfff" prot="public" virt="non-virtual"><scope>models(user)::Doctor</scope><name>BMDC_RegNo</name></member>
+      <member refid="classmodels_07user_08_1_1_doctor_1af8e1ab390dfa937f7776886d6a6b3a3a" prot="public" virt="non-virtual"><scope>models(user)::Doctor</scope><name>HSC_GPA</name></member>
+      <member refid="classmodels_07user_08_1_1_doctor_1a5e1acb16a8a7a4a709b5f5516ff03b7a" prot="public" virt="non-virtual"><scope>models(user)::Doctor</scope><name>MBBS_Inst</name></member>
+      <member refid="classmodels_07user_08_1_1_doctor_1a847dc023e12f43836e4b79dbc2c88af9" prot="public" virt="non-virtual"><scope>models(user)::Doctor</scope><name>MBBS_Session</name></member>
+      <member refid="classmodels_07user_08_1_1_doctor_1a7beb578fe9c4ae76279b3abf4a7a62b2" prot="public" virt="non-virtual"><scope>models(user)::Doctor</scope><name>PostGrad_details</name></member>
+      <member refid="classmodels_07user_08_1_1_doctor_1a3f6a6abbca2747b50e9d67a0b7f5ef8c" prot="public" virt="non-virtual"><scope>models(user)::Doctor</scope><name>SSC_GPA</name></member>
+      <member refid="classmodels_07user_08_1_1_doctor_1adeb2841ea746dbe962f6a7f11356c4c9" prot="public" virt="non-virtual"><scope>models(user)::Doctor</scope><name>user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classmodels_07prescription_08_1_1_medicine" kind="class" language="Python" prot="public">
+    <compoundname>models(prescription)::Medicine</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmodels_07prescription_08_1_1_medicine_1a746e3167784a01fd73411ee4f09f02de" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>models(prescription).Medicine::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <initializer>=  models.CharField(max_length=50)</initializer>
+        <briefdescription>
+<para>A class variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(prescription).py" line="8" column="1" bodyfile="models(prescription).py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmodels_07prescription_08_1_1_medicine_1ac752666eb08a077778b2a7aa6e157e87" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>models(prescription).Medicine::miligram</definition>
+        <argsstring></argsstring>
+        <name>miligram</name>
+        <initializer>=  models.PositiveIntegerField(default=5)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(prescription).py" line="9" column="1" bodyfile="models(prescription).py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmodels_07prescription_08_1_1_medicine_1ad3d672524052a9a582254862f3e347c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def models(prescription).Medicine.get_absolute_url</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_absolute_url</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+<para>Documentation for a method called get_absolute_url which is used in testcase. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>self</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object pointer </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(prescription).py" line="16" column="1" bodyfile="models(prescription).py" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classmodels_07prescription_08_1_1_medicine_1adc6356ad875c560826f14e7b3b396675" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def models(prescription).Medicine.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+<para>Documentation for a method called <bold>str</bold> which is used in testcase. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>self</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object pointer </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(prescription).py" line="23" column="1" bodyfile="models(prescription).py" bodystart="23" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Define a class called medicine. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>models(prescription).Medicine</label>
+        <link refid="classmodels_07prescription_08_1_1_medicine"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>models(prescription).Medicine</label>
+        <link refid="classmodels_07prescription_08_1_1_medicine"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="models(prescription).py" line="6" column="1" bodyfile="models(prescription).py" bodystart="6" bodyend="26"/>
+    <listofallmembers>
+      <member refid="classmodels_07prescription_08_1_1_medicine_1adc6356ad875c560826f14e7b3b396675" prot="public" virt="non-virtual"><scope>models(prescription)::Medicine</scope><name>__str__</name></member>
+      <member refid="classmodels_07prescription_08_1_1_medicine_1ad3d672524052a9a582254862f3e347c6" prot="public" virt="non-virtual"><scope>models(prescription)::Medicine</scope><name>get_absolute_url</name></member>
+      <member refid="classmodels_07prescription_08_1_1_medicine_1ac752666eb08a077778b2a7aa6e157e87" prot="public" virt="non-virtual"><scope>models(prescription)::Medicine</scope><name>miligram</name></member>
+      <member refid="classmodels_07prescription_08_1_1_medicine_1a746e3167784a01fd73411ee4f09f02de" prot="public" virt="non-virtual"><scope>models(prescription)::Medicine</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

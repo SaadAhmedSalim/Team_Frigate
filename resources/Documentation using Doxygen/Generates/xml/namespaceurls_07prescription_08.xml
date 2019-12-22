@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespaceurls_07prescription_08" kind="namespace" language="Python">
+    <compoundname>urls(prescription)</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceurls_07prescription_08_1a0b7eb02b86c91966cb3d08f7c0f5abef" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list urls(prescription).urlpatterns</definition>
+        <argsstring></argsstring>
+        <name>urlpatterns</name>
+        <initializer>=  [
+    path(&apos;add/medicine/&apos;, MedicineCreateView.as_view(), name=&apos;add_medicine&apos;),
+    ## Locate the medicine page where can be added medicine
+    path(&apos;add/prescription/medicine&apos;, PrescriptionMedicineCreate.as_view(), name=&apos;add_pr_med&apos;),
+    ## Locate the prescription where medicine can be added
+    path(&apos;update/prescription/&lt;pk&gt;/&apos;, PrescriptionMedicineUpdateView.as_view(), name=&apos;pr_update&apos;),
+    ## Locate the prescription where it can be updated
+    path(&apos;detail/prescription/&lt;pk&gt;/&apos;, PrescriptionDetailView.as_view(), name=&apos;pr_detail&apos;)
+    ## Locate the prescription where details can be seen
+    path(&apos;add/prescription/patient/&lt;pk&gt;/&apos;, PrescriptionCreateView.as_view(), name=&apos;pr_create&apos;),
+    ## Locate the prescription where prescription can be created
+    path(&apos;list/prescription/&apos;, PrescriptionListView.as_view(), name=&apos;pr_list&apos;),
+    ## Locate the prescription where it can be seen as a list view in admin
+    ]</initializer>
+        <briefdescription>
+<para>add urls to see the all branches </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="urls(prescription).py" line="8" column="1" bodyfile="urls(prescription).py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="urls(prescription).py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

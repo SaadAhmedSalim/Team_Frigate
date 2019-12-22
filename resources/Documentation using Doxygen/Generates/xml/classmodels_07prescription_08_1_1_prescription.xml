@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classmodels_07prescription_08_1_1_prescription" kind="class" language="Python" prot="public">
+    <compoundname>models(prescription)::Prescription</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmodels_07prescription_08_1_1_prescription_1a6832844f16d9efcaa031e5f748cfe53a" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>models(prescription).Prescription::doctor</definition>
+        <argsstring></argsstring>
+        <name>doctor</name>
+        <initializer>=  models.ForeignKey(Doctor, on_delete=models.CASCADE)</initializer>
+        <briefdescription>
+<para>A class variable named doctor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(prescription).py" line="29" column="1" bodyfile="models(prescription).py" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmodels_07prescription_08_1_1_prescription_1aa87472614a4f582cc987c23f2464a685" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>models(prescription).Prescription::patient</definition>
+        <argsstring></argsstring>
+        <name>patient</name>
+        <initializer>=  models.ForeignKey(Patient, on_delete=models.CASCADE)</initializer>
+        <briefdescription>
+<para>A class variable named patient. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(prescription).py" line="31" column="1" bodyfile="models(prescription).py" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmodels_07prescription_08_1_1_prescription_1abd8fb1df0abd03226f682e6906915cc1" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>models(prescription).Prescription::timestamp</definition>
+        <argsstring></argsstring>
+        <name>timestamp</name>
+        <initializer>=  models.DateTimeField(auto_now_add=True)</initializer>
+        <briefdescription>
+<para>A class variable named timestamp. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(prescription).py" line="33" column="1" bodyfile="models(prescription).py" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmodels_07prescription_08_1_1_prescription_1a7b174169b2b175ad8e14f8ffdf1a666b" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>models(prescription).Prescription::tests</definition>
+        <argsstring></argsstring>
+        <name>tests</name>
+        <initializer>=  models.CharField(max_length=50, null=True)</initializer>
+        <briefdescription>
+<para>A class variable named tests. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(prescription).py" line="35" column="1" bodyfile="models(prescription).py" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmodels_07prescription_08_1_1_prescription_1a6ee240ab39df42c42d08fa6cdecc30bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def models(prescription).Prescription.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(prescription).py" line="37" column="1" bodyfile="models(prescription).py" bodystart="37" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classmodels_07prescription_08_1_1_prescription_1a3e899f6cacac255fa845b8e6719a70cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def models(prescription).Prescription.get_absolute_url</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_absolute_url</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(prescription).py" line="42" column="1" bodyfile="models(prescription).py" bodystart="42" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Define a class called prescription. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>models(prescription).Prescription</label>
+        <link refid="classmodels_07prescription_08_1_1_prescription"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>models(prescription).Prescription</label>
+        <link refid="classmodels_07prescription_08_1_1_prescription"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="models(prescription).py" line="27" column="1" bodyfile="models(prescription).py" bodystart="27" bodyend="45"/>
+    <listofallmembers>
+      <member refid="classmodels_07prescription_08_1_1_prescription_1a6ee240ab39df42c42d08fa6cdecc30bd" prot="public" virt="non-virtual"><scope>models(prescription)::Prescription</scope><name>__str__</name></member>
+      <member refid="classmodels_07prescription_08_1_1_prescription_1a6832844f16d9efcaa031e5f748cfe53a" prot="public" virt="non-virtual"><scope>models(prescription)::Prescription</scope><name>doctor</name></member>
+      <member refid="classmodels_07prescription_08_1_1_prescription_1a3e899f6cacac255fa845b8e6719a70cb" prot="public" virt="non-virtual"><scope>models(prescription)::Prescription</scope><name>get_absolute_url</name></member>
+      <member refid="classmodels_07prescription_08_1_1_prescription_1aa87472614a4f582cc987c23f2464a685" prot="public" virt="non-virtual"><scope>models(prescription)::Prescription</scope><name>patient</name></member>
+      <member refid="classmodels_07prescription_08_1_1_prescription_1a7b174169b2b175ad8e14f8ffdf1a666b" prot="public" virt="non-virtual"><scope>models(prescription)::Prescription</scope><name>tests</name></member>
+      <member refid="classmodels_07prescription_08_1_1_prescription_1abd8fb1df0abd03226f682e6906915cc1" prot="public" virt="non-virtual"><scope>models(prescription)::Prescription</scope><name>timestamp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

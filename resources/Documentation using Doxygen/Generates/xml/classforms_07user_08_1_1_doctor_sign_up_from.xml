@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classforms_07user_08_1_1_doctor_sign_up_from" kind="class" language="Python" prot="public">
+    <compoundname>forms(user)::DoctorSignUpFrom</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserCreationForm</basecompoundref>
+    <innerclass refid="classforms_07user_08_1_1_doctor_sign_up_from_1_1_meta" prot="public">forms(user)::DoctorSignUpFrom::Meta</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classforms_07user_08_1_1_doctor_sign_up_from_1a084a9d2b81db18d15bee34423c15dd67" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>forms(user).DoctorSignUpFrom::SSC_GPA</definition>
+        <argsstring></argsstring>
+        <name>SSC_GPA</name>
+        <initializer>=  forms.DecimalField(label=&quot;SSC GPA&quot;)</initializer>
+        <briefdescription>
+<para>A class variable named SSC_GPA. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="forms(user).py" line="40" column="1" bodyfile="forms(user).py" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classforms_07user_08_1_1_doctor_sign_up_from_1a3f7e49f7517e8a8ae4bdae811e213932" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>forms(user).DoctorSignUpFrom::HSC_GPA</definition>
+        <argsstring></argsstring>
+        <name>HSC_GPA</name>
+        <initializer>=  forms.DecimalField(label=&quot;HSC GPA&quot;)</initializer>
+        <briefdescription>
+<para>A class variable named HSC_GPA. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="forms(user).py" line="42" column="1" bodyfile="forms(user).py" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classforms_07user_08_1_1_doctor_sign_up_from_1a7360ed0d1087e4c66db66a59926ba58f" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>forms(user).DoctorSignUpFrom::BMDC_RegNo</definition>
+        <argsstring></argsstring>
+        <name>BMDC_RegNo</name>
+        <initializer>=  forms.CharField(label=&apos;BMDC Reg No&apos;)</initializer>
+        <briefdescription>
+<para>A class variable named BMDC_RegNo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="forms(user).py" line="44" column="1" bodyfile="forms(user).py" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classforms_07user_08_1_1_doctor_sign_up_from_1a389bdc56c3c4ca5d18c70a1538fdcaed" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>forms(user).DoctorSignUpFrom::MBBS_Session</definition>
+        <argsstring></argsstring>
+        <name>MBBS_Session</name>
+        <initializer>=  forms.CharField(label=&apos;MBBS Session&apos;)</initializer>
+        <briefdescription>
+<para>A class variable named MBBS_Session. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="forms(user).py" line="46" column="1" bodyfile="forms(user).py" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classforms_07user_08_1_1_doctor_sign_up_from_1ab20fa2d07ca5a3430a96c2b4c55f51c1" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>forms(user).DoctorSignUpFrom::MBBS_Inst</definition>
+        <argsstring></argsstring>
+        <name>MBBS_Inst</name>
+        <initializer>=  forms.CharField(label=&apos;Institution&apos;)</initializer>
+        <briefdescription>
+<para>A class variable named MBBS_Inst. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="forms(user).py" line="48" column="1" bodyfile="forms(user).py" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classforms_07user_08_1_1_doctor_sign_up_from_1a1e909e6f0c5b7e56d56716e0bea0914e" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>forms(user).DoctorSignUpFrom::PostGrad_details</definition>
+        <argsstring></argsstring>
+        <name>PostGrad_details</name>
+        <initializer>=  forms.CharField(label=&apos;PostGrad Info&apos;)</initializer>
+        <briefdescription>
+<para>A class variable named PostGrad_details. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="forms(user).py" line="50" column="1" bodyfile="forms(user).py" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classforms_07user_08_1_1_doctor_sign_up_from_1a6bde374c6c7bf04eafcf85da4825907c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def forms(user).DoctorSignUpFrom.save</definition>
+        <argsstring>(self)</argsstring>
+        <name>save</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="forms(user).py" line="60" column="1" bodyfile="forms(user).py" bodystart="60" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Define a class called <ref refid="classforms_07user_08_1_1_doctor_sign_up_from" kindref="compound">DoctorSignUpFrom</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>UserCreationForm</label>
+      </node>
+      <node id="1">
+        <label>forms(user).DoctorSignUpFrom</label>
+        <link refid="classforms_07user_08_1_1_doctor_sign_up_from"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>UserCreationForm</label>
+      </node>
+      <node id="1">
+        <label>forms(user).DoctorSignUpFrom</label>
+        <link refid="classforms_07user_08_1_1_doctor_sign_up_from"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="forms(user).py" line="38" column="1" bodyfile="forms(user).py" bodystart="38" bodyend="75"/>
+    <listofallmembers>
+      <member refid="classforms_07user_08_1_1_doctor_sign_up_from_1a7360ed0d1087e4c66db66a59926ba58f" prot="public" virt="non-virtual"><scope>forms(user)::DoctorSignUpFrom</scope><name>BMDC_RegNo</name></member>
+      <member refid="classforms_07user_08_1_1_doctor_sign_up_from_1a3f7e49f7517e8a8ae4bdae811e213932" prot="public" virt="non-virtual"><scope>forms(user)::DoctorSignUpFrom</scope><name>HSC_GPA</name></member>
+      <member refid="classforms_07user_08_1_1_doctor_sign_up_from_1ab20fa2d07ca5a3430a96c2b4c55f51c1" prot="public" virt="non-virtual"><scope>forms(user)::DoctorSignUpFrom</scope><name>MBBS_Inst</name></member>
+      <member refid="classforms_07user_08_1_1_doctor_sign_up_from_1a389bdc56c3c4ca5d18c70a1538fdcaed" prot="public" virt="non-virtual"><scope>forms(user)::DoctorSignUpFrom</scope><name>MBBS_Session</name></member>
+      <member refid="classforms_07user_08_1_1_doctor_sign_up_from_1a1e909e6f0c5b7e56d56716e0bea0914e" prot="public" virt="non-virtual"><scope>forms(user)::DoctorSignUpFrom</scope><name>PostGrad_details</name></member>
+      <member refid="classforms_07user_08_1_1_doctor_sign_up_from_1a6bde374c6c7bf04eafcf85da4825907c" prot="public" virt="non-virtual"><scope>forms(user)::DoctorSignUpFrom</scope><name>save</name></member>
+      <member refid="classforms_07user_08_1_1_doctor_sign_up_from_1a084a9d2b81db18d15bee34423c15dd67" prot="public" virt="non-virtual"><scope>forms(user)::DoctorSignUpFrom</scope><name>SSC_GPA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

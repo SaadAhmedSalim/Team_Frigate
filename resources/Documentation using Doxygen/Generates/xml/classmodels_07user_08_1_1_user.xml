@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classmodels_07user_08_1_1_user" kind="class" language="Python" prot="public">
+    <compoundname>models(user)::User</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AbstractUser</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmodels_07user_08_1_1_user_1a42d937e86178c5ebfb0342ffb1b6b540" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>models(user).User::is_doctor</definition>
+        <argsstring></argsstring>
+        <name>is_doctor</name>
+        <initializer>=  models.BooleanField(default=False)</initializer>
+        <briefdescription>
+<para>A class variable is_doctor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(user).py" line="10" column="1" bodyfile="models(user).py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmodels_07user_08_1_1_user_1af4c4f888ab93a14637217d44f1deb2d4" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>models(user).User::is_patient</definition>
+        <argsstring></argsstring>
+        <name>is_patient</name>
+        <initializer>=  models.BooleanField(default=False)</initializer>
+        <briefdescription>
+<para>A class variable is_patient. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(user).py" line="12" column="1" bodyfile="models(user).py" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmodels_07user_08_1_1_user_1a3fcd5cd33bd78046c21f92063873a191" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>models(user).User::NID</definition>
+        <argsstring></argsstring>
+        <name>NID</name>
+        <initializer>=  models.CharField(max_length=50, blank=False, null=False)</initializer>
+        <briefdescription>
+<para>A class variable NID. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(user).py" line="14" column="1" bodyfile="models(user).py" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmodels_07user_08_1_1_user_1a75a1d310c30d423d47c081c251c71a49" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>models(user).User::email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <initializer>=  models.CharField(max_length=100)</initializer>
+        <briefdescription>
+<para>A class variable email. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(user).py" line="16" column="1" bodyfile="models(user).py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmodels_07user_08_1_1_user_1ab616381886b825dbeecdb0201728d4db" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>models(user).User::age</definition>
+        <argsstring></argsstring>
+        <name>age</name>
+        <initializer>=  models.PositiveIntegerField(null=True, blank=True)</initializer>
+        <briefdescription>
+<para>A class variable age. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(user).py" line="18" column="1" bodyfile="models(user).py" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmodels_07user_08_1_1_user_1a63b1679f59e4041c63fb31e8dd8dc769" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple models(user).User::GENDER_CHOICES</definition>
+        <argsstring></argsstring>
+        <name>GENDER_CHOICES</name>
+        <initializer>=  (
+        (&apos;M&apos;, &apos;Male&apos;),
+        (&apos;F&apos;, &apos;Female&apos;),
+    )</initializer>
+        <briefdescription>
+<para>A class variable GENDER_CHOICES. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(user).py" line="20" column="1" bodyfile="models(user).py" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmodels_07user_08_1_1_user_1a71585003ffccf944d23e9e591b7e401e" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>models(user).User::gender</definition>
+        <argsstring></argsstring>
+        <name>gender</name>
+        <initializer>=  models.CharField(max_length=1, choices=<ref refid="classmodels_07user_08_1_1_user_1a63b1679f59e4041c63fb31e8dd8dc769" kindref="member">GENDER_CHOICES</ref>)</initializer>
+        <briefdescription>
+<para>A class variable gender. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(user).py" line="25" column="1" bodyfile="models(user).py" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmodels_07user_08_1_1_user_1af74e78b865ec9502f03e7396c0904e17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def models(user).User.get_absolute_url</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_absolute_url</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(user).py" line="27" column="1" bodyfile="models(user).py" bodystart="27" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classmodels_07user_08_1_1_user" kindref="compound">User</ref> model defines here. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>A class named <ref refid="classmodels_07user_08_1_1_user" kindref="compound">User</ref>. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AbstractUser</label>
+      </node>
+      <node id="1">
+        <label>models(user).User</label>
+        <link refid="classmodels_07user_08_1_1_user"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AbstractUser</label>
+      </node>
+      <node id="1">
+        <label>models(user).User</label>
+        <link refid="classmodels_07user_08_1_1_user"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="models(user).py" line="8" column="1" bodyfile="models(user).py" bodystart="8" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classmodels_07user_08_1_1_user_1ab616381886b825dbeecdb0201728d4db" prot="public" virt="non-virtual"><scope>models(user)::User</scope><name>age</name></member>
+      <member refid="classmodels_07user_08_1_1_user_1a75a1d310c30d423d47c081c251c71a49" prot="public" virt="non-virtual"><scope>models(user)::User</scope><name>email</name></member>
+      <member refid="classmodels_07user_08_1_1_user_1a71585003ffccf944d23e9e591b7e401e" prot="public" virt="non-virtual"><scope>models(user)::User</scope><name>gender</name></member>
+      <member refid="classmodels_07user_08_1_1_user_1a63b1679f59e4041c63fb31e8dd8dc769" prot="public" virt="non-virtual"><scope>models(user)::User</scope><name>GENDER_CHOICES</name></member>
+      <member refid="classmodels_07user_08_1_1_user_1af74e78b865ec9502f03e7396c0904e17" prot="public" virt="non-virtual"><scope>models(user)::User</scope><name>get_absolute_url</name></member>
+      <member refid="classmodels_07user_08_1_1_user_1a42d937e86178c5ebfb0342ffb1b6b540" prot="public" virt="non-virtual"><scope>models(user)::User</scope><name>is_doctor</name></member>
+      <member refid="classmodels_07user_08_1_1_user_1af4c4f888ab93a14637217d44f1deb2d4" prot="public" virt="non-virtual"><scope>models(user)::User</scope><name>is_patient</name></member>
+      <member refid="classmodels_07user_08_1_1_user_1a3fcd5cd33bd78046c21f92063873a191" prot="public" virt="non-virtual"><scope>models(user)::User</scope><name>NID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

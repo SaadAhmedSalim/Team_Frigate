@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="urls_07prescription_08_8py" kind="file" language="Python">
+    <compoundname>urls(prescription).py</compoundname>
+    <innernamespace refid="namespaceurls_07prescription_08">urls(prescription)</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceurls_07prescription_08" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.urls<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>include,<sp/>path</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.views<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>(MedicineCreateView,<sp/>PrescriptionMedicineCreate,</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PrescriptionMedicineUpdateView,<sp/>PrescriptionDetailView,</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PrescriptionCreateView,<sp/>PrescriptionListView)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="namespaceurls_07prescription_08_1a0b7eb02b86c91966cb3d08f7c0f5abef" refkind="member"><highlight class="normal">urlpatterns<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;add/medicine/&apos;</highlight><highlight class="normal">,<sp/>MedicineCreateView.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;add_medicine&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;add/prescription/medicine&apos;</highlight><highlight class="normal">,<sp/>PrescriptionMedicineCreate.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;add_pr_med&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;update/prescription/&lt;pk&gt;/&apos;</highlight><highlight class="normal">,<sp/>PrescriptionMedicineUpdateView.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;pr_update&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;detail/prescription/&lt;pk&gt;/&apos;</highlight><highlight class="normal">,<sp/>PrescriptionDetailView.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;pr_detail&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;add/prescription/patient/&lt;pk&gt;/&apos;</highlight><highlight class="normal">,<sp/>PrescriptionCreateView.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;pr_create&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;list/prescription/&apos;</highlight><highlight class="normal">,<sp/>PrescriptionListView.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;pr_list&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>]</highlight></codeline>
+    </programlisting>
+    <location file="urls(prescription).py"/>
+  </compounddef>
+</doxygen>

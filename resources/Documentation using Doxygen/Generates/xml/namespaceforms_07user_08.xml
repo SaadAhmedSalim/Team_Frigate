@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespaceforms_07user_08" kind="namespace" language="Python">
+    <compoundname>forms(user)</compoundname>
+    <innerclass refid="classforms_07user_08_1_1_doctor_sign_up_from" prot="public">forms(user)::DoctorSignUpFrom</innerclass>
+    <innerclass refid="classforms_07user_08_1_1_patient_sign_up_form" prot="public">forms(user)::PatientSignUpForm</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="forms(user).py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

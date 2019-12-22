@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespaceurls_07main_08" kind="namespace" language="Python">
+    <compoundname>urls(main)</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceurls_07main_08_1a3c1b1a386516535d7a38bd2ddad08d4a" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list urls(main).urlpatterns</definition>
+        <argsstring></argsstring>
+        <name>urlpatterns</name>
+        <initializer>=  [
+    path(&apos;admin/&apos;, admin.site.urls),
+## Admin page view.
+    path(&apos;accounts/&apos;, include(&apos;django.contrib.auth.urls&apos;)),
+## Admin can view all the users pages.
+    path(&apos;users/&apos;, include(&apos;users.urls&apos;)),
+## user can view their prespective pages.
+    path(&apos;&apos;, home, name=&apos;home&apos;),
+    path(&apos;medication/&apos;, include(&apos;prescription_gen.urls&apos;)),
+## when a doctor generate a prescription they can follow this steps.
+    path(&apos;search/&apos;, SearchView.as_view(), name=&apos;search&apos;),
+## This is for all to search doctor.
+    path(&apos;search/patient/&apos;, PatientSearchView.as_view(), name=&apos;search_results&apos;),
+## This is for doctor who searches patient by using their NID.
+    path(&apos;home/doctor&apos;, DoctorHomeView.as_view(), name=&apos;doctor_home&apos;),
+## This is doctors home page.
+    path(&apos;home/patient&apos;, PatientHomeView.as_view(), name=&apos;patient_home&apos;),
+## This is patients home page.
+]</initializer>
+        <briefdescription>
+<para>add urls to see the all branches </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="urls(main).py" line="10" column="1" bodyfile="urls(main).py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="urls(main).py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

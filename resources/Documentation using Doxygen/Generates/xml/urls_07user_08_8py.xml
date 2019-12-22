@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="urls_07user_08_8py" kind="file" language="Python">
+    <compoundname>urls(user).py</compoundname>
+    <innernamespace refid="namespaceurls_07user_08">urls(user)</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceurls_07user_08" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.urls<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>include,<sp/>path</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.views<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>(SignUpView,<sp/>DoctorSignUpView,<sp/>PatientSignUpView,</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DoctorsListView,<sp/>PatientDetailView,<sp/>DoctorDetailView)</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespaceurls_07user_08_1aa9de350b115ffd9fddeb5cc90e5e1f00" refkind="member"><highlight class="normal">urlpatterns<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;signup/&apos;</highlight><highlight class="normal">,<sp/>SignUpView.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;signup&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;signup/doctor&apos;</highlight><highlight class="normal">,<sp/>DoctorSignUpView.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;signup_doctor&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;signup/patient&apos;</highlight><highlight class="normal">,<sp/>PatientSignUpView.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;signup_patient&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;doctors/&apos;</highlight><highlight class="normal">,<sp/>DoctorsListView.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;doctor_list&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;patient/&lt;pk&gt;/&apos;</highlight><highlight class="normal">,<sp/>PatientDetailView.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;patient_detail&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;doctor/&lt;pk&gt;/&apos;</highlight><highlight class="normal">,<sp/>DoctorDetailView.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;doctor_detail&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">]</highlight></codeline>
+    </programlisting>
+    <location file="urls(user).py"/>
+  </compounddef>
+</doxygen>
