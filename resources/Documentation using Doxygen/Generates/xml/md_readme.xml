@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="md_readme" kind="page">
+    <compoundname>md_readme</compoundname>
+    <title>Project WeCare</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>It is a simple project where doctors can generate prescription for patients. Patients can view doctors details and their prescriptions.</para>
+<sect2 id="md_readme_1autotoc_md1">
+<title>Resources</title>
+<para><ulink url="https://wsvincent.com/django-search/">https://wsvincent.com/django-search/</ulink></para>
+<para><ulink url="https://simpleisbetterthancomplex.com/tutorial/2018/01/29/how-to-implement-dependent-or-chained-dropdown-list-with-django.html">https://simpleisbetterthancomplex.com/tutorial/2018/01/29/how-to-implement-dependent-or-chained-dropdown-list-with-django.html</ulink></para>
+<para><ulink url="https://medium.com/@adandan01/django-inline-formsets-example-mybook-420cc4b6225d">https://medium.com/@adandan01/django-inline-formsets-example-mybook-420cc4b6225d</ulink></para>
+<para><ulink url="https://docs.djangoproject.com/en/1.10/topics/forms/modelforms/#inline-formsets">https://docs.djangoproject.com/en/1.10/topics/forms/modelforms/#inline-formsets</ulink></para>
+<para><ulink url="https://www.techiediaries.com/django-templateview/">https://www.techiediaries.com/django-templateview/</ulink> </para>
+</sect2>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

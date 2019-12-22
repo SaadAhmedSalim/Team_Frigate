@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespaceforms_07prescription_08" kind="namespace" language="Python">
+    <compoundname>forms(prescription)</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceforms_07prescription_08_1a4cb26303a09ca03fdb3069899140d580" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>forms(prescription).MedicineFormSet</definition>
+        <argsstring></argsstring>
+        <name>MedicineFormSet</name>
+        <initializer>=  inlineformset_factory(Prescription,
+                                        PrescriptionMedicine,
+                                        fk_name=&apos;prescription&apos;,
+                                        fields=[&apos;medicine&apos;,&apos;timing&apos;, &apos;duration&apos;],
+                                        extra=1,
+                                        can_delete=True)</initializer>
+        <briefdescription>
+<para>inlineformset_factory(parent_model, model, form=ModelForm, formset=BaseInlineFormSet, fk_name=None, fields=None, exclude=None, extra=3, can_order=False, can_delete=True, max_num=None, formfield_callback=None, widgets=None, validate_max=False, localized_fields=None, labels=None, help_texts=None, error_messages=None, min_num=None, validate_min=False, field_classes=None) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="forms(prescription).py" line="15" column="1" bodyfile="forms(prescription).py" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="forms(prescription).py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

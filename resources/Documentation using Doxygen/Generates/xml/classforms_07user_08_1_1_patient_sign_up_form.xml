@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classforms_07user_08_1_1_patient_sign_up_form" kind="class" language="Python" prot="public">
+    <compoundname>forms(user)::PatientSignUpForm</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserCreationForm</basecompoundref>
+    <innerclass refid="classforms_07user_08_1_1_patient_sign_up_form_1_1_meta" prot="public">forms(user)::PatientSignUpForm::Meta</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classforms_07user_08_1_1_patient_sign_up_form_1ad95640ad61f057d88b2a06ee13e3171d" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>forms(user).PatientSignUpForm::address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <initializer>=  forms.CharField(label=&apos;Address&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="forms(user).py" line="12" column="1" bodyfile="forms(user).py" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classforms_07user_08_1_1_patient_sign_up_form_1a62397864bae1c3fd5871cae2343bc688" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def forms(user).PatientSignUpForm.save</definition>
+        <argsstring>(self)</argsstring>
+        <name>save</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+<para>Documentation for a method called save which used as a super class. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="forms(user).py" line="26" column="1" bodyfile="forms(user).py" bodystart="26" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Define a class name <ref refid="classforms_07user_08_1_1_patient_sign_up_form" kindref="compound">PatientSignUpForm</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>UserCreationForm</label>
+      </node>
+      <node id="1">
+        <label>forms(user).PatientSignUpForm</label>
+        <link refid="classforms_07user_08_1_1_patient_sign_up_form"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>UserCreationForm</label>
+      </node>
+      <node id="1">
+        <label>forms(user).PatientSignUpForm</label>
+        <link refid="classforms_07user_08_1_1_patient_sign_up_form"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="forms(user).py" line="9" column="1" bodyfile="forms(user).py" bodystart="9" bodyend="37"/>
+    <listofallmembers>
+      <member refid="classforms_07user_08_1_1_patient_sign_up_form_1ad95640ad61f057d88b2a06ee13e3171d" prot="public" virt="non-virtual"><scope>forms(user)::PatientSignUpForm</scope><name>address</name></member>
+      <member refid="classforms_07user_08_1_1_patient_sign_up_form_1a62397864bae1c3fd5871cae2343bc688" prot="public" virt="non-virtual"><scope>forms(user)::PatientSignUpForm</scope><name>save</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

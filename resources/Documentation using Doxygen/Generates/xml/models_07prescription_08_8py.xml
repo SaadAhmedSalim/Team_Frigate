@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="models_07prescription_08_8py" kind="file" language="Python">
+    <compoundname>models(prescription).py</compoundname>
+    <innerclass refid="classmodels_07prescription_08_1_1_medicine" prot="public">models(prescription)::Medicine</innerclass>
+    <innerclass refid="classmodels_07prescription_08_1_1_prescription" prot="public">models(prescription)::Prescription</innerclass>
+    <innerclass refid="classmodels_07prescription_08_1_1_prescription_medicine" prot="public">models(prescription)::PrescriptionMedicine</innerclass>
+    <innernamespace refid="namespacemodels_07prescription_08">models(prescription)</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacemodels_07prescription_08" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.db<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>models</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.urls<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>reverse</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>users.models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>User,<sp/>Patient,<sp/>Doctor</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classmodels_07prescription_08_1_1_medicine" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classmodels_07prescription_08_1_1_medicine" kindref="compound">Medicine</ref>(models.Model):</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="8" refid="classmodels_07prescription_08_1_1_medicine_1a746e3167784a01fd73411ee4f09f02de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>name<sp/>=<sp/>models.CharField(max_length=50)</highlight></codeline>
+<codeline lineno="9" refid="classmodels_07prescription_08_1_1_medicine_1ac752666eb08a077778b2a7aa6e157e87" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>miligram<sp/>=<sp/>models.PositiveIntegerField(default=5)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="16" refid="classmodels_07prescription_08_1_1_medicine_1ad3d672524052a9a582254862f3e347c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classmodels_07prescription_08_1_1_medicine_1ad3d672524052a9a582254862f3e347c6" kindref="member">get_absolute_url</ref>(self):</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>reverse(</highlight><highlight class="stringliteral">&apos;home&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23" refid="classmodels_07prescription_08_1_1_medicine_1adc6356ad875c560826f14e7b3b396675" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classmodels_07prescription_08_1_1_medicine_1adc6356ad875c560826f14e7b3b396675" kindref="member">__str__</ref>(self):</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self.<ref refid="classmodels_07prescription_08_1_1_medicine_1a746e3167784a01fd73411ee4f09f02de" kindref="member">name</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="classmodels_07prescription_08_1_1_prescription" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classmodels_07prescription_08_1_1_prescription" kindref="compound">Prescription</ref>(models.Model):</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29" refid="classmodels_07prescription_08_1_1_prescription_1a6832844f16d9efcaa031e5f748cfe53a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>doctor<sp/>=<sp/>models.ForeignKey(Doctor,<sp/>on_delete=models.CASCADE)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31" refid="classmodels_07prescription_08_1_1_prescription_1aa87472614a4f582cc987c23f2464a685" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>patient<sp/>=<sp/>models.ForeignKey(Patient,<sp/>on_delete=models.CASCADE)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33" refid="classmodels_07prescription_08_1_1_prescription_1abd8fb1df0abd03226f682e6906915cc1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>timestamp<sp/>=<sp/>models.DateTimeField(auto_now_add=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35" refid="classmodels_07prescription_08_1_1_prescription_1a7b174169b2b175ad8e14f8ffdf1a666b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>tests<sp/>=<sp/>models.CharField(max_length=50,<sp/>null=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="classmodels_07prescription_08_1_1_prescription_1a6ee240ab39df42c42d08fa6cdecc30bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classmodels_07prescription_08_1_1_prescription_1a6ee240ab39df42c42d08fa6cdecc30bd" kindref="member">__str__</ref>(self):</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;{}.<sp/>Prescription<sp/>for<sp/>{}<sp/>by<sp/>{}<sp/>{}&quot;</highlight><highlight class="normal">.format(self.id,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classmodels_07prescription_08_1_1_prescription_1aa87472614a4f582cc987c23f2464a685" kindref="member">patient</ref>.user.first_name,<sp/>self.<ref refid="classmodels_07prescription_08_1_1_prescription_1a6832844f16d9efcaa031e5f748cfe53a" kindref="member">doctor</ref>.user.first_name,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classmodels_07prescription_08_1_1_prescription_1abd8fb1df0abd03226f682e6906915cc1" kindref="member">timestamp</ref>)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="classmodels_07prescription_08_1_1_prescription_1a3e899f6cacac255fa845b8e6719a70cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classmodels_07prescription_08_1_1_prescription_1a3e899f6cacac255fa845b8e6719a70cb" kindref="member">get_absolute_url</ref>(self):</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>reverse(</highlight><highlight class="stringliteral">&apos;pr_update&apos;</highlight><highlight class="normal">,<sp/>kwargs={</highlight><highlight class="stringliteral">&apos;pk&apos;</highlight><highlight class="normal">:<sp/>self.pk})</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="classmodels_07prescription_08_1_1_prescription_medicine" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classmodels_07prescription_08_1_1_prescription_medicine" kindref="compound">PrescriptionMedicine</ref>(models.Model):</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48" refid="classmodels_07prescription_08_1_1_prescription_medicine_1a69c444d7d043828f256ed1001a436968" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>prescription<sp/>=<sp/>models.ForeignKey(</highlight><highlight class="stringliteral">&apos;Prescription&apos;</highlight><highlight class="normal">,<sp/>related_name=</highlight><highlight class="stringliteral">&apos;pr_med&apos;</highlight><highlight class="normal">,<sp/>on_delete=models.CASCADE)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="50" refid="classmodels_07prescription_08_1_1_prescription_medicine_1a3dc9c7b69b4b7bcec991b22f8bddfaa1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>medicine<sp/>=<sp/>models.ForeignKey(Medicine,<sp/>on_delete=models.CASCADE)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52" refid="classmodels_07prescription_08_1_1_prescription_medicine_1a920d2c43024189a313c08e1d1b31ab41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>timing<sp/>=<sp/>models.CharField(max_length=20,<sp/>default<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;1<sp/>+<sp/>0<sp/>+<sp/>1&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="54" refid="classmodels_07prescription_08_1_1_prescription_medicine_1a20f0af0c3e7142592fc1d692cc9a3b9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>duration<sp/>=<sp/>models.CharField(max_length=20,<sp/>default<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;1<sp/>week&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="classmodels_07prescription_08_1_1_prescription_medicine_1a222bf2269464303fe9b1bd61a9b73209" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classmodels_07prescription_08_1_1_prescription_medicine_1a222bf2269464303fe9b1bd61a9b73209" kindref="member">__str__</ref>(self):</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self.<ref refid="classmodels_07prescription_08_1_1_prescription_medicine_1a3dc9c7b69b4b7bcec991b22f8bddfaa1" kindref="member">medicine</ref>.name</highlight></codeline>
+    </programlisting>
+    <location file="models(prescription).py"/>
+  </compounddef>
+</doxygen>

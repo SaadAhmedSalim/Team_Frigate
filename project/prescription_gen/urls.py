@@ -12,7 +12,7 @@ urlpatterns = [
     ## Locate the prescription where medicine can be added
     path('update/prescription/<pk>/', PrescriptionMedicineUpdateView.as_view(), name='pr_update'),
     ## Locate the prescription where it can be updated
-    path('detail/prescription/<pk>/', PrescriptionDetailView.as_view(), name='pr_detail')
+    path('detail/prescription/<pk>/', PrescriptionDetailView.as_view(), name='pr_detail'),
     ## Locate the prescription where details can be seen
     path('add/prescription/patient/<pk>/', PrescriptionCreateView.as_view(), name='pr_create'),
     ## Locate the prescription where prescription can be created

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="readme_8md" kind="file" language="Markdown">
+    <compoundname>readme.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">##<sp/>Project<sp/>WeCare</highlight></codeline>
+<codeline><highlight class="normal">It<sp/>is<sp/>a<sp/>simple<sp/>project<sp/>where<sp/>doctors<sp/>can<sp/>generate<sp/>prescription<sp/>for<sp/>patients.<sp/>Patients<sp/>can<sp/>view<sp/>doctors<sp/>details<sp/>and<sp/>their<sp/>prescriptions.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Resources</highlight></codeline>
+<codeline><highlight class="normal">https://wsvincent.com/django-search/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">https://simpleisbetterthancomplex.com/tutorial/2018/01/29/how-to-implement-dependent-or-chained-dropdown-list-with-django.html</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">https://medium.com/@adandan01/django-inline-formsets-example-mybook-420cc4b6225d</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">https://docs.djangoproject.com/en/1.10/topics/forms/modelforms/#inline-formsets</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">https://www.techiediaries.com/django-templateview/</highlight></codeline>
+    </programlisting>
+    <location file="readme.md"/>
+  </compounddef>
+</doxygen>

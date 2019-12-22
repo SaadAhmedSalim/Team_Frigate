@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classmodels_07user_08_1_1_patient" kind="class" language="Python" prot="public">
+    <compoundname>models(user)::Patient</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Model</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmodels_07user_08_1_1_patient_1ad94baee3af30074572fa919a9dd45f33" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>models(user).Patient::user</definition>
+        <argsstring></argsstring>
+        <name>user</name>
+        <initializer>=  models.OneToOneField(<ref refid="classmodels_07user_08_1_1_user" kindref="compound">User</ref>, on_delete=models.CASCADE, primary_key=True)</initializer>
+        <briefdescription>
+<para>A class variable user. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(user).py" line="35" column="1" bodyfile="models(user).py" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmodels_07user_08_1_1_patient_1a91a48e19d79e7910d235ee6dd6e589c1" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>models(user).Patient::address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <initializer>=  models.CharField(max_length=255, blank=False, null=False)</initializer>
+        <briefdescription>
+<para>A class variable address. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(user).py" line="37" column="1" bodyfile="models(user).py" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmodels_07user_08_1_1_patient_1a020555fad2f0c958ba8d16a9496cb831" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def models(user).Patient.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+<para>Documentation for a method <bold>str</bold> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>self</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the object pointer </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="models(user).py" line="41" column="1" bodyfile="models(user).py" bodystart="41" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Define a class <ref refid="classmodels_07user_08_1_1_patient" kindref="compound">Patient</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>models(user).Patient</label>
+        <link refid="classmodels_07user_08_1_1_patient"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>models(user).Patient</label>
+        <link refid="classmodels_07user_08_1_1_patient"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="models(user).py" line="33" column="1" bodyfile="models(user).py" bodystart="33" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classmodels_07user_08_1_1_patient_1a020555fad2f0c958ba8d16a9496cb831" prot="public" virt="non-virtual"><scope>models(user)::Patient</scope><name>__str__</name></member>
+      <member refid="classmodels_07user_08_1_1_patient_1a91a48e19d79e7910d235ee6dd6e589c1" prot="public" virt="non-virtual"><scope>models(user)::Patient</scope><name>address</name></member>
+      <member refid="classmodels_07user_08_1_1_patient_1ad94baee3af30074572fa919a9dd45f33" prot="public" virt="non-virtual"><scope>models(user)::Patient</scope><name>user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -4,10 +4,11 @@ from django.db import transaction
 from django.forms.utils import ValidationError
 
 from .models import (Doctor, Patient, User)
-## for public view
+
 
 ## Define a class name PatientSignUpForm.
 class PatientSignUpForm(UserCreationForm):
+
     ## @var named address.
     address = forms.CharField(label='Address')
 

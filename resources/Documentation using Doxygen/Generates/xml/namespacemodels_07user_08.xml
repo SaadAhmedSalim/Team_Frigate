@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespacemodels_07user_08" kind="namespace" language="Python">
+    <compoundname>models(user)</compoundname>
+    <innerclass refid="classmodels_07user_08_1_1_doctor" prot="public">models(user)::Doctor</innerclass>
+    <innerclass refid="classmodels_07user_08_1_1_patient" prot="public">models(user)::Patient</innerclass>
+    <innerclass refid="classmodels_07user_08_1_1_user" prot="public">models(user)::User</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="models(user).py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

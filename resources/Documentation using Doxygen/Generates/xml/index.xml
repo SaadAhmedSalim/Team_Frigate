@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.16">
+  <compound refid="classmodels_07user_08_1_1_doctor" kind="class"><name>models(user)::Doctor</name>
+    <member refid="classmodels_07user_08_1_1_doctor_1adeb2841ea746dbe962f6a7f11356c4c9" kind="variable"><name>user</name></member>
+    <member refid="classmodels_07user_08_1_1_doctor_1a3f6a6abbca2747b50e9d67a0b7f5ef8c" kind="variable"><name>SSC_GPA</name></member>
+    <member refid="classmodels_07user_08_1_1_doctor_1af8e1ab390dfa937f7776886d6a6b3a3a" kind="variable"><name>HSC_GPA</name></member>
+    <member refid="classmodels_07user_08_1_1_doctor_1a359533549bf43654c94650c34d98bfff" kind="variable"><name>BMDC_RegNo</name></member>
+    <member refid="classmodels_07user_08_1_1_doctor_1a847dc023e12f43836e4b79dbc2c88af9" kind="variable"><name>MBBS_Session</name></member>
+    <member refid="classmodels_07user_08_1_1_doctor_1a5e1acb16a8a7a4a709b5f5516ff03b7a" kind="variable"><name>MBBS_Inst</name></member>
+    <member refid="classmodels_07user_08_1_1_doctor_1a7beb578fe9c4ae76279b3abf4a7a62b2" kind="variable"><name>PostGrad_details</name></member>
+    <member refid="classmodels_07user_08_1_1_doctor_1ad2160bd47abb165c5992c4c84cdf0ae3" kind="function"><name>__str__</name></member>
+  </compound>
+  <compound refid="classforms_07user_08_1_1_doctor_sign_up_from" kind="class"><name>forms(user)::DoctorSignUpFrom</name>
+    <member refid="classforms_07user_08_1_1_doctor_sign_up_from_1a084a9d2b81db18d15bee34423c15dd67" kind="variable"><name>SSC_GPA</name></member>
+    <member refid="classforms_07user_08_1_1_doctor_sign_up_from_1a3f7e49f7517e8a8ae4bdae811e213932" kind="variable"><name>HSC_GPA</name></member>
+    <member refid="classforms_07user_08_1_1_doctor_sign_up_from_1a7360ed0d1087e4c66db66a59926ba58f" kind="variable"><name>BMDC_RegNo</name></member>
+    <member refid="classforms_07user_08_1_1_doctor_sign_up_from_1a389bdc56c3c4ca5d18c70a1538fdcaed" kind="variable"><name>MBBS_Session</name></member>
+    <member refid="classforms_07user_08_1_1_doctor_sign_up_from_1ab20fa2d07ca5a3430a96c2b4c55f51c1" kind="variable"><name>MBBS_Inst</name></member>
+    <member refid="classforms_07user_08_1_1_doctor_sign_up_from_1a1e909e6f0c5b7e56d56716e0bea0914e" kind="variable"><name>PostGrad_details</name></member>
+    <member refid="classforms_07user_08_1_1_doctor_sign_up_from_1a6bde374c6c7bf04eafcf85da4825907c" kind="function"><name>save</name></member>
+  </compound>
+  <compound refid="classmodels_07prescription_08_1_1_medicine" kind="class"><name>models(prescription)::Medicine</name>
+    <member refid="classmodels_07prescription_08_1_1_medicine_1a746e3167784a01fd73411ee4f09f02de" kind="variable"><name>name</name></member>
+    <member refid="classmodels_07prescription_08_1_1_medicine_1ac752666eb08a077778b2a7aa6e157e87" kind="variable"><name>miligram</name></member>
+    <member refid="classmodels_07prescription_08_1_1_medicine_1ad3d672524052a9a582254862f3e347c6" kind="function"><name>get_absolute_url</name></member>
+    <member refid="classmodels_07prescription_08_1_1_medicine_1adc6356ad875c560826f14e7b3b396675" kind="function"><name>__str__</name></member>
+  </compound>
+  <compound refid="classforms_07user_08_1_1_doctor_sign_up_from_1_1_meta" kind="class"><name>forms(user)::DoctorSignUpFrom::Meta</name>
+    <member refid="classforms_07user_08_1_1_doctor_sign_up_from_1_1_meta_1ab3fbfc2dee32de995b9201cb3e3b7dc3" kind="variable"><name>model</name></member>
+    <member refid="classforms_07user_08_1_1_doctor_sign_up_from_1_1_meta_1a6b804559b91db78af932d91c45079923" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classforms_07user_08_1_1_patient_sign_up_form_1_1_meta" kind="class"><name>forms(user)::PatientSignUpForm::Meta</name>
+    <member refid="classforms_07user_08_1_1_patient_sign_up_form_1_1_meta_1a59fa5faea2102e5ec7c4670735f043fb" kind="variable"><name>model</name></member>
+    <member refid="classforms_07user_08_1_1_patient_sign_up_form_1_1_meta_1a28cb3976111dfb1cbb094242dd369b3f" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classmodels_07user_08_1_1_patient" kind="class"><name>models(user)::Patient</name>
+    <member refid="classmodels_07user_08_1_1_patient_1ad94baee3af30074572fa919a9dd45f33" kind="variable"><name>user</name></member>
+    <member refid="classmodels_07user_08_1_1_patient_1a91a48e19d79e7910d235ee6dd6e589c1" kind="variable"><name>address</name></member>
+    <member refid="classmodels_07user_08_1_1_patient_1a020555fad2f0c958ba8d16a9496cb831" kind="function"><name>__str__</name></member>
+  </compound>
+  <compound refid="classforms_07user_08_1_1_patient_sign_up_form" kind="class"><name>forms(user)::PatientSignUpForm</name>
+    <member refid="classforms_07user_08_1_1_patient_sign_up_form_1ad95640ad61f057d88b2a06ee13e3171d" kind="variable"><name>address</name></member>
+    <member refid="classforms_07user_08_1_1_patient_sign_up_form_1a62397864bae1c3fd5871cae2343bc688" kind="function"><name>save</name></member>
+  </compound>
+  <compound refid="classmodels_07prescription_08_1_1_prescription" kind="class"><name>models(prescription)::Prescription</name>
+    <member refid="classmodels_07prescription_08_1_1_prescription_1a6832844f16d9efcaa031e5f748cfe53a" kind="variable"><name>doctor</name></member>
+    <member refid="classmodels_07prescription_08_1_1_prescription_1aa87472614a4f582cc987c23f2464a685" kind="variable"><name>patient</name></member>
+    <member refid="classmodels_07prescription_08_1_1_prescription_1abd8fb1df0abd03226f682e6906915cc1" kind="variable"><name>timestamp</name></member>
+    <member refid="classmodels_07prescription_08_1_1_prescription_1a7b174169b2b175ad8e14f8ffdf1a666b" kind="variable"><name>tests</name></member>
+    <member refid="classmodels_07prescription_08_1_1_prescription_1a6ee240ab39df42c42d08fa6cdecc30bd" kind="function"><name>__str__</name></member>
+    <member refid="classmodels_07prescription_08_1_1_prescription_1a3e899f6cacac255fa845b8e6719a70cb" kind="function"><name>get_absolute_url</name></member>
+  </compound>
+  <compound refid="classmodels_07prescription_08_1_1_prescription_medicine" kind="class"><name>models(prescription)::PrescriptionMedicine</name>
+    <member refid="classmodels_07prescription_08_1_1_prescription_medicine_1a69c444d7d043828f256ed1001a436968" kind="variable"><name>prescription</name></member>
+    <member refid="classmodels_07prescription_08_1_1_prescription_medicine_1a3dc9c7b69b4b7bcec991b22f8bddfaa1" kind="variable"><name>medicine</name></member>
+    <member refid="classmodels_07prescription_08_1_1_prescription_medicine_1a920d2c43024189a313c08e1d1b31ab41" kind="variable"><name>timing</name></member>
+    <member refid="classmodels_07prescription_08_1_1_prescription_medicine_1a20f0af0c3e7142592fc1d692cc9a3b9c" kind="variable"><name>duration</name></member>
+    <member refid="classmodels_07prescription_08_1_1_prescription_medicine_1a222bf2269464303fe9b1bd61a9b73209" kind="function"><name>__str__</name></member>
+  </compound>
+  <compound refid="classmodels_07user_08_1_1_user" kind="class"><name>models(user)::User</name>
+    <member refid="classmodels_07user_08_1_1_user_1a42d937e86178c5ebfb0342ffb1b6b540" kind="variable"><name>is_doctor</name></member>
+    <member refid="classmodels_07user_08_1_1_user_1af4c4f888ab93a14637217d44f1deb2d4" kind="variable"><name>is_patient</name></member>
+    <member refid="classmodels_07user_08_1_1_user_1a3fcd5cd33bd78046c21f92063873a191" kind="variable"><name>NID</name></member>
+    <member refid="classmodels_07user_08_1_1_user_1a75a1d310c30d423d47c081c251c71a49" kind="variable"><name>email</name></member>
+    <member refid="classmodels_07user_08_1_1_user_1ab616381886b825dbeecdb0201728d4db" kind="variable"><name>age</name></member>
+    <member refid="classmodels_07user_08_1_1_user_1a63b1679f59e4041c63fb31e8dd8dc769" kind="variable"><name>GENDER_CHOICES</name></member>
+    <member refid="classmodels_07user_08_1_1_user_1a71585003ffccf944d23e9e591b7e401e" kind="variable"><name>gender</name></member>
+    <member refid="classmodels_07user_08_1_1_user_1af74e78b865ec9502f03e7396c0904e17" kind="function"><name>get_absolute_url</name></member>
+  </compound>
+  <compound refid="namespaceforms" kind="namespace"><name>forms</name>
+  </compound>
+  <compound refid="namespaceforms_07prescription_08" kind="namespace"><name>forms(prescription)</name>
+    <member refid="namespaceforms_07prescription_08_1a4cb26303a09ca03fdb3069899140d580" kind="variable"><name>MedicineFormSet</name></member>
+  </compound>
+  <compound refid="namespaceforms_07user_08" kind="namespace"><name>forms(user)</name>
+  </compound>
+  <compound refid="namespacemanage" kind="namespace"><name>manage</name>
+  </compound>
+  <compound refid="namespacemodels_07prescription_08" kind="namespace"><name>models(prescription)</name>
+  </compound>
+  <compound refid="namespacemodels_07user_08" kind="namespace"><name>models(user)</name>
+  </compound>
+  <compound refid="namespacepyexample" kind="namespace"><name>pyexample</name>
+  </compound>
+  <compound refid="namespaceurls_07main_08" kind="namespace"><name>urls(main)</name>
+    <member refid="namespaceurls_07main_08_1a3c1b1a386516535d7a38bd2ddad08d4a" kind="variable"><name>urlpatterns</name></member>
+  </compound>
+  <compound refid="namespaceurls_07prescription_08" kind="namespace"><name>urls(prescription)</name>
+    <member refid="namespaceurls_07prescription_08_1a0b7eb02b86c91966cb3d08f7c0f5abef" kind="variable"><name>urlpatterns</name></member>
+  </compound>
+  <compound refid="namespaceurls_07user_08" kind="namespace"><name>urls(user)</name>
+    <member refid="namespaceurls_07user_08_1aa9de350b115ffd9fddeb5cc90e5e1f00" kind="variable"><name>urlpatterns</name></member>
+  </compound>
+  <compound refid="forms_07prescription_08_8py" kind="file"><name>forms(prescription).py</name>
+  </compound>
+  <compound refid="forms_07user_08_8py" kind="file"><name>forms(user).py</name>
+  </compound>
+  <compound refid="manage_8py" kind="file"><name>manage.py</name>
+  </compound>
+  <compound refid="models_07prescription_08_8py" kind="file"><name>models(prescription).py</name>
+  </compound>
+  <compound refid="models_07user_08_8py" kind="file"><name>models(user).py</name>
+  </compound>
+  <compound refid="readme_8md" kind="file"><name>readme.md</name>
+  </compound>
+  <compound refid="urls_07main_08_8py" kind="file"><name>urls(main).py</name>
+  </compound>
+  <compound refid="urls_07prescription_08_8py" kind="file"><name>urls(prescription).py</name>
+  </compound>
+  <compound refid="urls_07user_08_8py" kind="file"><name>urls(user).py</name>
+  </compound>
+  <compound refid="md_readme" kind="page"><name>md_readme</name>
+  </compound>
+</doxygenindex>
